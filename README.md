@@ -9,3 +9,5 @@ As this was just a quick experimental project, a lot of things aren't implemente
 - Both the main 60Hz timer (used to update the CHIP-8's sound and delay timers) and the system update timer (the one running at 700Hz) are clumped in together and update all in the same block of code. Ideally, I should have made a timer type to store their deltas, accumulators, etc and updated them seperately.
 
 The idea behind programming this was to understand the basic development process of something akin to an emulator. As I have no real interest in the Chip-8 system itself, and feel I have learnt everything I expected to learn from this project, the various bugs and unimplemented features in this program are unlikely to be fixed. Was fun to get it (mostly) working though!
+
+Uploaded on March 7th 2018
